@@ -10,6 +10,9 @@ To build this text editor, you will start with an existing application and imple
 
 You will deploy this full-stack application to Heroku using the [Heroku Deployment Guide on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/heroku/heroku-deployment-guide).
 
+**Summary**
+The idea is to create an app text editor that saves the users input online and offline. The information will still be present when changing the application, and will update moving from offline back to online. 
+
 ## User Story
 
 ```md
