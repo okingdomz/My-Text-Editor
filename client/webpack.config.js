@@ -75,7 +75,7 @@ module.exports = () => {
             options: {
               // added babl/transform-runtime
               presets: ['@babel/preset-env'],
-              plugins: ['babel/transform-runtime', '@babel/plugin-proposal-object-rest-spread'],
+              plugins: ['@babel/plugin-proposal-object-rest-spread', 'babel/transform-runtime'],
             },
           },
         },
