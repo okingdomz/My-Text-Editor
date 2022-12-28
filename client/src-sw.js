@@ -31,7 +31,7 @@ registerRoute(
   // request for cache
   ({request}) => ["style", "script", "worker"].includes(request.destination),
   new StaleWhileRevalidate({
-    cacheName: "assest-cache",
+    cacheName: "asset-cache",
     plugins: [
       new CacheableResponsePlugin({
         statuses: [0, 200],
